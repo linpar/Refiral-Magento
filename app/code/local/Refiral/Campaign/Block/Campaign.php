@@ -21,20 +21,20 @@ class Refiral_Campaign_Block_Campaign extends Mage_Core_Block_Template
 			<script type="text/javascript">
 		   	if ( (typeof jQuery === 'undefined') && !window.jQuery ) 
 		   	{
-	       		document.write(unescape("%3Cscript type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'%3E%3C/script%3E"));
-		    } 
-		    else 
-		    {
-		        if((typeof jQuery === 'undefined') && window.jQuery) 
-		        {
-		            jQuery = window.jQuery;
+	       			document.write(unescape("%3Cscript type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'%3E%3C/script%3E"));
 		        } 
-		        else if((typeof jQuery !== 'undefined') && !window.jQuery) 
-		        {
-		            window.jQuery = jQuery;
-		        }
-		    }
-		    </script>
+		    	else 
+		    	{
+		        	if((typeof jQuery === 'undefined') && window.jQuery) 
+		        	{
+		            		jQuery = window.jQuery;
+		        	} 
+		        	else if((typeof jQuery !== 'undefined') && !window.jQuery) 
+		        	{
+		            		window.jQuery = jQuery;
+		        	}
+		    	}
+		    	</script>
 			<script>
 				var $j = jQuery.noConflict();
 			</script>
